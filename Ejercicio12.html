@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    
+    <script src="./JS/bootstrap.bundle.js"></script>
+    
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA 2 JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+       
+
+<div class="wrapper">
+  
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">
+         Saul Daniel Merino
+      </div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="Ejercicio1.html">
+          <span class="icon"><i class="fas fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 1</span>
+          </a></li>
+        <li><a href="Ejercicio2.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 2</span>
+          </a></li>
+        <li><a href="Ejercicio3.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 3</span>
+          </a></li>
+        <li><a href="Ejercicio4.html" class="active">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 4</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 5</span>
+          </a></li>
+          <li><a href="Ejercicio6.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 6</span>
+            </a></li>
+            <li><a href="Ejercicio7.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 7</span>
+                </a></li>
+            <li><a href="Ejercicio8.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 8</span>
+            </a></li>
+            <li><a href="Ejercicio9.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 9</span>
+            </a></li>
+            <li><a href="Ejercicio10.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 10</span>
+            </a></li>
+            <li><a href="Ejercicio11.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 11</span>
+            </a></li>
+            <li><a href="Ejercicio12.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 12</span>
+            </a></li>
+            <li><a href="Ejercicio13.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 13</span>
+            </a></li>
+            <li><a href="Ejercicio14.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 14</span>
+            </a></li>
+            <li><a href="Ejercicio15.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 15</span>
+            </a></li>
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="item">
+        <h1>
+           <b> Ejercicio 12 </b>
+        </h1>
+        <br>
+        <h3>
+            Crear un programa “Calculadora”, con las 4 operaciones básicas, sumar restar, multiplicar y dividir. <br> ¿
+            ¿Cómo se ha de “subdividir” el programa? <br> ¿Lo implemento con funciones? ¿Cuántas funciones son
+            necesarias
+        </h3>
+    </div>
+    <div class="" name="Calculo" >
+        <form name="calculo1">
+       <div>
+        <h3><b> Calculadora Basica</b></h3>
+        <div class="item">
+            <div class="item input-group input-group-lg">
+                <span for="valor1" class="input-group-text" id="inputGroup-sizing-sm">Valor 1</span>
+                <input id="valor1" type="number" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  >
+              </div>
+    </div>
+    <div class="item">
+        <div class="item input-group input-group-lg">
+            <span for="valor2" class="input-group-text" id="inputGroup-sizing-sm">Valor 2</span>
+            <input id="valor2" type="number" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="20">
+          </div>
+          <br>
+          <br>
+          <div class="arreglar">
+          <input type="reset" value="Reset" class="arreglar input-group-text">
+          <input type="button" value="Realizar Suma" onclick="suma();" class="arreglar input-group-text">
+          <input type="button" value="Realizar Multiplicacion" onclick="multiplica();" class="arreglar input-group-text">
+          <input type="button" value="Realizar Resta" onclick="reste();" class="arreglar input-group-text">
+          <input type="button" value="Realizar Division" onclick="divide();" class="arreglar input-group-text">
+        </div>
+          
+
+    <div class="item input-group input-group-lg">
+      <div class="item">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Resultado</span>
+            <input id="resulta" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Resultado">
+          </div>  
+          <div class="item">
+    </div>
+  </div>
+</form>
+    </header>
+<script>
+    
+function suma(){
+    let valora, valorb;
+    let resultadof;
+    valora = parseInt(document.getElementById("valor1").value);
+    valorb = parseInt(document.getElementById("valor2").value);
+    (resultadof = valora+valorb);
+
+    document.getElementById("resulta").value = resultadof;
+}
+
+function reste(){
+    let valora, valorb;
+    let resultadof;
+    valora = parseInt(document.getElementById("valor1").value);
+    valorb = parseInt(document.getElementById("valor2").value);
+    (resultadof = Number(valora-valorb));
+
+    document.getElementById("resulta").value = resultadof;
+}
+
+function multiplica(){
+    let valora, valorb;
+    let resultadof;
+    valora = parseInt(document.getElementById("valor1").value);
+    valorb = parseInt(document.getElementById("valor2").value);
+    (resultadof = Number(valora)*Number(valorb));
+
+    document.getElementById("resulta").value = resultadof;
+}
+
+function divide(){
+    let valora, valorb;
+    let resultadof;
+    valora = parseInt(document.getElementById("valor1").value);
+    valorb = parseInt(document.getElementById("valor2").value);
+   (resultadof = valora/valorb);
+
+    document.getElementById("resulta").value = resultadof;
+}
+
+</script>
+</body>
+</html>

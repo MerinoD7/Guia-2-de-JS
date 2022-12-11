@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./JS/bootstrap.bundle.js"></script>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA 2 JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+<div class="wrapper">
+  
+    <div class="top_navbar">
+        <div class="hamburger">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+        <div class="top_menu">
+        <div class="logo">
+         Saul Daniel Merino
+        </div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="Ejercicio1.html">
+          <span class="icon"><i class="fas fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 1</span>
+          </a></li>
+        <li><a href="Ejercicio2.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 2</span>
+          </a></li>
+        <li><a href="Ejercicio3.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 3</span>
+          </a></li>
+        <li><a href="Ejercicio4.html" class="active">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 4</span>
+          </a></li>
+        <li><a href="Ejercicio5.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 5</span>
+          </a></li>
+        <li><a href="Ejercicio6.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 6</span>
+        </a></li>
+        <li><a href="Ejercicio7.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 7</span>
+        </a></li>
+        <li><a href="Ejercicio8.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 8</span>
+            </a></li>
+        <li><a href="Ejercicio9.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 9</span>
+        </a></li>
+            <li><a href="Ejercicio10.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 10</span>
+            </a></li>
+            <li><a href="Ejercicio11.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 11</span>
+            </a></li>
+            <li><a href="Ejercicio12.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 12</span>
+            </a></li>
+            <li><a href="Ejercicio13.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 13</span>
+            </a></li>
+            <li><a href="Ejercicio14.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 14</span>
+            </a></li>
+            <li><a href="Ejercicio15.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 15</span>
+            </a></li>
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="item">
+        <h1><strong>
+            Ejercicio 10</strong>
+        </h1>
+        <br>
+        <h3>
+            <p>Crear una Fuction, en una pàgina web, donde el usuario introduce su altura (cm), edad, sexo
+                y peso actual. El programa responde con una referencia de peso aproximado.
+                <br>
+                Por Ejemplo:
+                <br>
+                Usuario introduce: <b> 176, 22, H, 79.</b>
+                <br>
+                El programa ejecuta la fórmula: <b> 50 + ((Altura-150) / 4) *3 + (Edad – 20) /4 * (0.9 si es mujer)</b>
+                <br>
+                El resultado es: <b>Peso Referencia = 70,5</b></p>
+        </h3>
+    </div>
+      <div class="item" name="Calcul" id="dis">
+        <form name="calculo1" class="calc">
+          <div>
+          <h3><b> Funcion para Calcular tu Peso</b></h3>
+          <br>
+          <div><h3><b> Ingresa tus Datos</b></h3></div> 
+         </div>
+      <div class="item">
+        <div class="input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Altura en CM</span>
+            <input id="altura"  type="number" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="20" placeholder="Altura">
+          </div>
+      </div>
+      <div class="item">
+          <div class=" input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Edad</span>
+            <input id="edad" type="text" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="20" placeholder="Edad">
+          </div>
+     </div>
+      <div class="item">
+        <div class="input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Selecciona tu Sexo</span>
+            <select name="cars" id="sex" class="form-control-lg border-1" aria-label="Sizing example input" >
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+              </select>
+          </div>
+          <br>
+          <div class="item">
+            <div class="input-group input-group-lg">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Peso Actual</span>
+                <input id="pesa" type="number" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="5" maxlength="4" placeholder="Peso Actual">
+            </div>
+              <br>
+              <br>    
+          <input type="reset" value="Reset" class="input-group-text">
+          <input type="button" value="Verificar" onclick="calculo();" class="input-group-text">
+              <br>
+    <div class=" input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Resultado</span>
+            <input id="peso" readonly="readonly" name="nombref" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Peso Actual">
+            <br>
+            <input id="sexi" readonly="readonly" name="cernetc" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Sexo">
+            <br>
+            <input id="edads" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Edad">
+            <br>
+            <input id="suge" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Peso Sugerido">   
+    </div>
+  </div>
+
+</form>
+    </header>
+<script>
+    
+    function calculo(){
+    
+   let peso2;
+   let edad2;
+   let sex2;
+   let result;
+   let alt2;
+
+    {
+        edad2 = document.getElementById("edad").value;
+
+        alt2 = document.getElementById("altura").value;
+
+        peso2 = document.getElementById("pesa").value;
+          
+        sex2 = document.getElementById("sex").value;
+        
+    }
+        
+    {
+    if(sex2 == "Femenino"){
+        result = 50 + ((alt2-150)/4)*3 + (edad2-20)/4 * (0.9);
+    }
+    else{
+        result = 50 + ((alt2-150)/4)*3 + (edad2-20)/4 * (1.9);
+    }
+    document.getElementById("suge").value = result +" "+ "KG";
+    document.getElementById("peso").value = peso2+" "+ "Libras";
+    document.getElementById("sexi").value = sex2;
+    document.getElementById("edads").value = edad2 +" "+ "Años";
+    }
+}
+
+</script>
+</body>
+</html>

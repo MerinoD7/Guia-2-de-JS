@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    
+    <script src="./JS/bootstrap.bundle.js"></script>
+    
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA 2 JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+       
+
+<div class="wrapper">
+  
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">
+         Saul Daniel Merino
+      </div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="Ejercicio1.html">
+          <span class="icon"><i class="fas fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 1</span>
+          </a></li>
+        <li><a href="Ejercicio2.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 2</span>
+          </a></li>
+        <li><a href="Ejercicio3.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 3</span>
+          </a></li>
+        <li><a href="Ejercicio4.html" class="active">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 4</span>
+          </a></li>
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 5</span>
+          </a></li>
+          <li><a href="Ejercicio6.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 6</span>
+            </a></li>
+            <li><a href="Ejercicio7.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 7</span>
+                </a></li>
+            <li><a href="Ejercicio8.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 8</span>
+            </a></li>
+            <li><a href="Ejercicio9.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 9</span>
+            </a></li>
+            <li><a href="Ejercicio10.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 10</span>
+            </a></li>
+            <li><a href="Ejercicio11.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 11</span>
+            </a></li>
+            <li><a href="Ejercicio12.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 12</span>
+            </a></li>
+            <li><a href="Ejercicio13.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 13</span>
+            </a></li>
+            <li><a href="Ejercicio14.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 14</span>
+            </a></li>
+            <li><a href="Ejercicio15.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 15</span>
+            </a></li>
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="item">
+        <h1>
+           <b> Ejercicio 2 </b>
+        </h1>
+        <br>
+        <h3>
+            Crear 3 Fuctions que calcule 2 números enteros y muestre en consola el resultado de la suma, resta,
+            multiplicación y división. Puede utilizar parámetros o variables locales para asignar valores a los 
+            números.
+        </h3>
+    </div>
+    <div class="" name="Calculo" >
+        <form name="calculo1">
+       <div>
+        <h3><b> Calculadora Basica</b></h3>
+        <div class="item">
+            <div class="item input-group input-group-lg">
+                <span for="valor1" class="input-group-text" id="inputGroup-sizing-sm">Valor 1</span>
+                <input name="valor1" type="text" class="form-control-lg" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="12" >
+              </div>
+    </div>
+    <div class="item">
+        <div class="item input-group input-group-lg">
+            <span for="valor2" class="input-group-text" id="inputGroup-sizing-sm">Valor 2</span>
+            <input name="valor2" type="number" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" size="15" maxlength="4">
+          </div>
+          <br>
+          <br>
+          <input type="reset" value="Reset" class="input-group-text">
+          <input type="button" value="Realizar Operaciones" onclick="verificar();" class="input-group-text">
+
+    <div class="item input-group input-group-lg">
+      <div class="item">
+      <span class="input-group-text" id="inputGroup-sizing-sm">Suma</span>
+            <input name="suma" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Resultado Suma">
+          </div>  
+          <div class="item">
+           
+            <span class="input-group-text" id="inputGroup-sizing-sm">Division</span>
+            <input name="division" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Resultado Division">
+          </div>
+            <br>
+            <div class="item">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Resta</span>
+            <input name="resta" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Resultado Resta">
+          </div>
+            <br>
+            <div class="item">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Multiplicacion</span>
+            <input name="multiplicacion" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Resultado Multiplicacion">
+          </div>
+    </div>
+  </div>
+</form>
+    </header>
+<script>
+    
+    function verificar()
+{
+    let valor1, valor2;
+    let division, multiplicacion, resta;
+    let suma;
+
+    valor1 = parseFloat (document.calculo1.valor1.value);
+    valor2 = parseFloat (document.calculo1.valor2.value);
+
+    suma = valor1+valor2;
+    resta = valor1-valor2;
+    multiplicacion = valor1*valor2;
+    
+    if(valor2==0){
+        (division=0);
+    }
+    else{
+        (division=valor1/valor2);
+    }
+    document.calculo1.division.value = division;
+    document.calculo1.multiplicacion.value = multiplicacion;
+    document.calculo1.resta.value = resta;
+    document.calculo1.suma.value = suma;
+}
+
+</script>
+</body>
+</html>

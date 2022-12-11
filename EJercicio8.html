@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href=".//CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+   
+    <script src="./JS/bootstrap.bundle.js"></script>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUIA 2 JAVASCRIPT</title>
+</head>
+<body>
+    <header>
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+<div class="wrapper">
+  
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu loga">
+      <div class="logo">
+         Saul Daniel Merino
+      </div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="sidebar">
+      <ul>
+        <li><a href="Ejercicio1.html">
+          <span class="icon"><i class="fas fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 1</span>
+          </a></li>
+        <li><a href="Ejercicio2.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 2</span>
+          </a></li>
+        <li><a href="Ejercicio3.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 3</span>
+          </a></li>
+        <li><a href="Ejercicio4.html" class="active">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 4</span>
+          </a></li>
+        <li><a href="Ejercicio5.html">
+          <span class="icon"><i class="fas fa-vote-yea"></i></span>
+          <span class="title">Ejercicio 5</span>
+          </a></li>
+          <li><a href="Ejercicio6.html">
+            <span class="icon"><i class="fas fa-vote-yea"></i></span>
+            <span class="title">Ejercicio 6</span>
+            </a></li>
+            <li><a href="Ejercicio7.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 7</span>
+                </a></li>
+            <li><a href="Ejercicio8.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 8</span>
+            </a></li>
+            <li><a href="Ejercicio9.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 9</span>
+            </a></li>
+            <li><a href="Ejercicio10.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 10</span>
+            </a></li>
+            <li><a href="Ejercicio11.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 11</span>
+            </a></li>
+            <li><a href="Ejercicio12.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 12</span>
+            </a></li>
+            <li><a href="Ejercicio13.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 13</span>
+            </a></li>
+            <li><a href="Ejercicio14.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 14</span>
+            </a></li>
+            <li><a href="Ejercicio15.html">
+                <span class="icon"><i class="fas fa-vote-yea"></i></span>
+                <span class="title">Ejercicio 15</span>
+            </a></li>
+     </ul>
+  </div>
+  
+  <div class="main_container">
+    <div class="item">
+        <h1>
+           <b> Ejercicio 8</b>
+        </h1>
+        <br>
+        <h5>
+            Crear una Fuction para calcular el descuento en viajes turísticos tomando en cuenta lo siguiente: Si el
+            usuario introduce como origen la ciudad de Palma y como destino La costa del Sol, el descuento será
+            de 5%, si el destino es Panchimalco el descuento será del 10% y si el destino es Puerto el Triunfo el
+            descuento será del 15%.
+
+        </h5>
+    </div>
+    <div class="dis" name="Calculo" >
+        <form name="calculo4">
+       <div>
+        <h3><b> DESCUENTO EN TU SIGUIENTE VIAJE DESDE LA PALMA</b></h3>
+    <div class="item itm">
+        <div class="input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Selecciona tu Destino</span>
+            <select name="cars" id="selec" class="form-control-lg border-1" aria-label="Sizing example input" >
+                <option value="Panchimalco">Panchimalco</option>
+                <option value="Costa del Sol">Costa del Sol</option>
+                <option value="Puerto el Triunfo">Puerto el Triunfo</option>
+              </select>
+          </div>
+    </div>
+  
+          <br>
+          <br>
+          <input type="reset" value="Reset" class="input-group-text">
+          <input type="button" value="Verificar" onclick="verdescuento();" class="input-group-text">
+
+    <div class="item input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-sm">Resultado</span>
+            <input id="viaje" name="resultado" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Destino">
+            <input id="preci" name="sala" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Precio">
+            <input id="descuento" name="aume" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Descuento" size="25">
+            <input id="pretota" name="aume" type="text" class="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"  placeholder="Precio Final" size="25">
+        </div>  
+    </div>
+  </div>
+</div>
+</form>
+    </header>
+<script>
+    
+    function verdescuento()
+    {
+        let autom;
+        let descu;
+        let precios;
+        let totaa;
+        let nuevosala;
+
+            
+        
+            autom = document.getElementById("selec").value;
+            document.getElementById("viaje").value = autom;
+
+        
+        {
+            if (autom == "Palma") {
+                (precios = 50) && (descu = "5%");
+            }
+
+            else if (autom == "Costa del Sol"){
+                (precios = 70) && (descu = "10%");
+            }
+
+            else{
+                (precios = 80) && (descu = "15%");
+            }
+
+        document.getElementById("descuento").value = descu;
+           document.getElementById("preci").value = precios +" "+ "Dolares";
+        }
+
+        {
+            if (descu =="5%"){
+                (totaa = precios-(precios*0.05));
+            }
+
+            else if (descu == "10%"){
+                (totaa=precios-(precios*0.10));
+
+            }
+
+            else{
+                (totaa=precios-(precios*0.20));
+            }
+
+        document.getElementById("pretota").value = totaa +" "+ "Dolares";
+        }
+}
+
+</script>
+</body>
+</html>
